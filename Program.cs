@@ -4,7 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Welcome, Zoo!");
+            Zoo zoo = new Zoo();
+            zoo.ShowAllAnimals();
+            zoo.ShowPredator();
+            zoo.FindAnimal();
         }
     }
 }
